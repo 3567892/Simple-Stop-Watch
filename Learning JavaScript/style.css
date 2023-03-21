@@ -1,0 +1,47 @@
+
+
+body{
+    background: pink;
+    font-family: "Times New Roman", Times, serif;
+    height: 100%;
+}
+
+.wrapper{
+    width: 800px;
+    margin: 30px auto ;
+    color: aliceblue;
+    text-align: center;
+}
+
+h1,h2{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 100;
+    font-size: 2.6em;
+    text-transform : uppercase;
+}
+
+#seconds,#tens{
+    font-size: 2em;
+}
+
+button{
+    border-radius: 5px;
+    background-color: pink;
+    border: solid 1px white; 
+    color:aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+font-size: 1.6em;
+    padding: 18px;
+    width : 180px;
+    margin: 10px;
+    outline: none;
+}
+    button:hover{
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+        background: white; 
+        border: solid 1px white;
+	color:pink;
+    }
